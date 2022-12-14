@@ -31,9 +31,9 @@ public class Hotel_Room {
 		Select s4=new Select(NR);
 		s4.selectByVisibleText("1 - One");
 		WebElement date = driver.findElement(By.xpath("//input[@id='datepick_in']"));
-		date.sendKeys("28/11/2022");
+		date.sendKeys("28/12/2022");
 		WebElement date2 = driver.findElement(By.xpath("//input[@id='datepick_out']"));
-		date2.sendKeys("30/11/2022");
+		date2.sendKeys("30/12/2022");
 		WebElement AR= driver.findElement(By.xpath("//select[@id='adult_room']"));
 		Select s5=new Select(AR);
 		s5.selectByVisibleText("2 - Two");
