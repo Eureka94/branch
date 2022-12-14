@@ -12,6 +12,7 @@ public class Hotel_Room {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\WIPRO\\eclipse-workspace\\selenium\\driver\\chromedriver.exe" );
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.adactinhotelapp.com/");
+		driver.manage().window().maximize();
 		WebElement UN = driver.findElement(By.xpath("//input[@id='username']"));
 		UN.sendKeys("eureka1994");
 		WebElement PWD = driver.findElement(By.xpath("//input[@id='password']"));
